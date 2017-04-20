@@ -28,6 +28,10 @@ public class SortHashMapDemo {
 		System.out.println(" The hashmap after sorting is \n");
 		System.out.println(sortedMap);
 		
+		// Git commit 2
+		System.out.println("Git commit");
 	}
+	
+	
 
 }
