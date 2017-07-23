@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Exception/" kind="src" path="new/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_60">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="G:/ATAL/workspace1/iText-5.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/javax.mail-api-1.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/commons-logging-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/fontbox-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/pdfbox-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/pdfbox-debugger-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/pdfbox-tools-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/preflight-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/pdfbox-2.0.6/jars/xmpbox-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ATAL/Desktop/jars/javax.mail-1.5.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
