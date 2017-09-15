@@ -12,6 +12,8 @@ public static void main(String args[]) {
     hm.put("Todd Hall", new Double(99.22)); 
     hm.put("Ralph Smith", new Double(-19.08)); 
     hm.put("new", new Double(256.78));
+    hm.put("other", 256);
+    hm.put("other", "String");
     // Get a set of the entries 
     Set set = hm.entrySet(); 
     // Get an iterator 

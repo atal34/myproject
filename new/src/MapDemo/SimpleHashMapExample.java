@@ -15,6 +15,10 @@ public class SimpleHashMapExample {
    
         //create object of HashMap
         HashMap hMap = new HashMap();
+        HashMap<String,String> map1 = new HashMap();
+        
+        map1.put("atal", "phatak");
+        System.out.println(map1.get("atal"));
    
         /*
           Add key value pair to HashMap using
@@ -29,6 +33,7 @@ public class SimpleHashMapExample {
         hMap.put("Three", new Integer(3));
         hMap.put(null, null);
         hMap.put(null,new Integer(77));
+        hMap.put("One", null);
         hMap.put("Three", new Integer(33));
         /*
           Please note that put method accepts Objects. Java Primitive values CAN NOT
@@ -41,7 +46,7 @@ public class SimpleHashMapExample {
         Object obj3 = hMap.get("Three2");
         System.out.println(obj);   
         Object obj1 = hMap.get(null);
-        System.out.println(obj3);
+        System.out.println(obj1);
    
         /*
           Please note that the return type of get method is an Object. The value must
