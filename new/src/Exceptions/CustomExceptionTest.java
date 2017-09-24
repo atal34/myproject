@@ -9,11 +9,16 @@ public class CustomExceptionTest {
 		try{
 		if(age<18){
 			throw new AgeException("Age should be greater than 18");
+			
 		}
+		System.out.println("after exeption");
 		}
 		
 		catch(AgeException a){
 			System.out.println("Exception caught"+a.getS());
+		}
+		finally{
+			System.out.println("inside finally");
 		}
 	}
 

@@ -1,8 +1,10 @@
 package List;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class ListDemo {
 	
@@ -13,6 +15,7 @@ public class ListDemo {
 		players.add("Smith");
 		players.add("Kohli");
 		players.add("Dhoni");
+		players.add("Ponting");
 		players.add("Ponting");
 		
 		for (int i=0;i<players.size();i++){
@@ -30,6 +33,15 @@ public class ListDemo {
 		while (i.hasNext()){
 			System.out.println(i.next());
 		}
+		System.out.println("\n");
+		Set<String> pSet = new HashSet<String>();
+		pSet.addAll(players);
+		
+		Iterator it = pSet.iterator();
+		while (it.hasNext()){
+			System.out.println(it.next());
+		}
+		
 	}
 
 }
