@@ -34,7 +34,7 @@ public class ArrayToArrayList {
 			System.out.println(i);
 		}
 		System.out.println(num[0]);
-		//numList.add(0);
+		numList.add(0);
 		
 
 	}

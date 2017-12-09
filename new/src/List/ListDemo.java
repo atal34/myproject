@@ -42,6 +42,11 @@ public class ListDemo {
 			System.out.println(it.next());
 		}
 		
+		ArrayList<String> alist = new ArrayList<String>();
+		
+		System.out.println("players is of type "+players.getClass());
+		System.out.println("Alist is of type "+alist.getClass());
+		
 	}
 
 }
