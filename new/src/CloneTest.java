@@ -10,6 +10,8 @@ public class CloneTest {
 		// TODO Auto-generated method stub
 
 		String s1= "Abc";
+		
+		//test 
 		Object s2 = s1.clone();
 	}
 
