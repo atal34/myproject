@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EmailUtil
+comment1.params=session\ toEmail\ subject\ body
+comment1.target=void\ sendEmail(javax.mail.Session,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Utility\ method\ to\ send\ simple\ HTML\ email\r\n\ @param\ session\r\n\ @param\ toEmail\r\n\ @param\ subject\r\n\ @param\ body\r\n
+numComments=2

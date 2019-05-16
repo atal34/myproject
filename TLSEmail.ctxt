@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TLSEmail
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\t\ \ \ Outgoing\ Mail\ (SMTP)\ Server\r\n\t\ \ \ requires\ TLS\ or\ SSL\:\ smtp.gmail.com\ (use\ authentication)\r\n\t\ \ \ Use\ Authentication\:\ Yes\r\n\t\ \ \ Port\ for\ TLS/STARTTLS\:\ 587\r\n
+comment2.params=
+comment2.target=javax.mail.PasswordAuthentication\ getPasswordAuthentication()
+numComments=3
