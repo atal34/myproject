@@ -6,6 +6,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/689218/Desktop/jars/javax.mail.jar/javax.mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/689218/Desktop/jars/javax.mail.jar/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/689218/Desktop/jars/jars1/java-json.jar/java-json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
