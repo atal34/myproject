@@ -4,7 +4,7 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 
-		int num = 3;
+		int num = 2999;
 		//int counter = 0;
 		
 		for(int no=1;no<=100;no++){
